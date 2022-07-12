@@ -1,0 +1,74 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width:100%;
+    height:auto;
+}
+
+.name{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(106, 50, 50);
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.info-container{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(106, 50, 50);
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.main{
+    display: flex;
+    text-align: start;
+    background-color:rgb(106, 50, 50);
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.main > div{
+    margin: 25px;
+}
+.about{
+    background-color: beige;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+
+}
+.menu{
+    background-color: beige;
+    color: black;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 24%;
+    width: 60%;
+}
+.social-container{
+    display: flex;
+    background-color:rgb(106, 50, 50) ;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.social-container > div{
+    flex-direction: column;
+}
+.twitter{
+    margin-top: 20px;
+}
+.facebook{
+    margin-top: 20px;
+}
+.instagram{
+    margin-top: 20px;
+}
